@@ -1,0 +1,45 @@
+.container {
+       display: table;
+    width: 99%;
+    height: 99%;
+}
+
+.row {
+    display: table-row;
+    /*width: 99%;*/
+
+    height: 450px;
+}
+
+.column {
+    display: table-cell;
+}
+
+#pop {
+    background: #7f804b;
+}
+
+#tourney {
+    background: #445577;
+}
+
+#bob {
+    background: #6f4344;
+}
+
+#rep {
+    background: #55aa55;
+}
+
+#mut {
+    background: #733f52;
+}
+
+#cross {
+    background: #5e6044;
+}
+
+#footsie {
+    background: #2f343f;
+    width: 99%;
+}

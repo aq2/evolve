@@ -1,0 +1,84 @@
+body {
+	padding: 0.5em;
+	margin: 0;
+	background: #3C4650;
+}
+
+#populationDiv {
+	background: #b000b5;
+	width: 30%;
+	text-align: center;
+	padding-bottom: 1em;
+	display: table-cell;
+
+	/*margin: 0 auto;*/
+}
+
+#populationTable  {	
+	border-collapse: collapse;
+	text-align: center;
+	margin: 0 auto;
+}
+
+th, td {
+	border: 1px solid black;
+	width: 25px;
+	height: 25px;
+	background: green;
+}
+
+#selectionDiv {
+	background: #f00ba4;
+	width: 30%;
+	display: table-cell;
+}
+
+#parentsDiv {
+	background: peachpuff;
+	width: 30%;
+	display: table-cell;
+}
+
+#tourneySize {
+	width: 50px;
+}
+
+h1 {
+	margin: 0 1em;
+}
+
+button {
+  color: #fff;
+  background-color: #6496c8;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 10px #27496d;
+}
+
+button:hover,
+button.hover {
+  background-color: #417cb8
+}
+
+button:active,
+button.active {
+  background-color: #417cb8;
+  box-shadow: 0 2px #27496d;
+  transform: translateY(1px);
+}
+
+button {
+  display: inline-block;
+  margin: 0 10px 0 0;
+  padding: 5px 5px;
+  font-size: 16px;
+  /*font-family: "Bitter",serif;*/
+  /*line-height: 0.5;*/
+  appearance: none;
+  box-shadow: none;
+  border-radius: 5px;
+}
+
+button:focus {
+  outline: none
+}

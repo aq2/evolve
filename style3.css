@@ -1,0 +1,88 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+#container {
+    background: peachpuff;
+    height: 100%;
+}
+
+
+/*  SECTIONS  */
+.row {
+    clear: both;
+    padding: 0;
+    margin: 0;
+}
+
+.row:before,
+.row:after {
+    content:"";
+    display:table;
+    clear:both;
+}
+
+.sketch {
+    height: 40%;
+}
+
+.foot {
+    height: 20%;
+}
+
+
+/*  COLUMN SETUP  */
+.col {
+    display: block;
+    float:left;
+    margin: 0;
+    min-height: 100%;
+}
+
+
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 66.66%; }
+.span_1_of_3 { width: 33.33%; }
+
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+    .col {  margin: 1% 0 1% 0%; }
+    .span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+}
+
+#pop {
+    background: #7f804b;
+}
+
+#tourney {
+    background: #445577;
+}
+
+#bob {
+    background: #6f4344;
+}
+
+#rep {
+    background: #55aa55;
+}
+
+#mut {
+    background: #733f52;
+}
+
+#cross {
+    background: #5e6044;
+}
+
+#footsie {
+    background: #2f343f;
+    /*width: 99%;*/
+}
+
+#chart {
+    background: #959;
+}
